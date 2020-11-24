@@ -19,5 +19,6 @@ join system_users su on su.id = u.system_user_id
 where w.name = 'BIS LMS Match (Courses)';
 
 -- site
-
-SELECT * from sites;
+SELECT id AS site_id,
+       name as site_name
+from sites;
