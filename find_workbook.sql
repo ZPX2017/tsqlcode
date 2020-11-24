@@ -17,3 +17,7 @@ join sites s on s.id = w.site_id
 join users u on u.id = w.owner_id
 join system_users su on su.id = u.system_user_id 
 where w.name = 'BIS LMS Match (Courses)';
+
+-- site
+
+SELECT * from sites;
